@@ -1,10 +1,12 @@
 import Cart from './Cart.png'
 import './CartWidget.css'
+import Button from '@mui/material/Button';
 const CartWidget = () => {
     return (
         <div>
-            <img src={Cart} className="img-NavBar" />
-            <p>Listado</p>
+            <Button>
+                <img src={Cart} className="img-NavBar"></img>
+            </Button>
         </div>
     )
 }

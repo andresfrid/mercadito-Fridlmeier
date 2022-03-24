@@ -1,13 +1,19 @@
 import Card from '../Card/Card.js';
-const ItemListContainer = () => {
+import './ItemListContainer.css';
 
+const ItemListContainer = ({children}) => {
+    let dataProduct = {
+        title: 'remera',
+        talle: 'XL',
+        price: 1500,
+        stock: 5
+    }
     return(
-        <div className="container-cards">
-            <Card title={'Remera'} talle={'XL'} price={'200'}/>
-            <Card title={'Pantalon'} talle={'L'} price={'300'}/>
-            <Card title={'Buzo'} talle={'XXL'} price={'500'}/>
-            <Card title={'Jean'} talle={'s'} price={'250'}/>
-            <Card title={'musculosa'} talle={'XL'} price={'150'}/>
+        <div className="container-list">
+            <div className="container-cards">
+                <h2>{children}</h2>
+                <Card data={dataProduct}/>
+            </div>
         </div>
     )
 }

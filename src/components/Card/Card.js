@@ -1,11 +1,20 @@
- 
-export default function Card({title, price, talle}){
+
+import './Card.css';
+import ItemCount from '../NavBar/ItemCount/ItemCount';
+
+
+export default function Card({data}){  
+    const {title, price, talle, stock} = data
+   
+    
+    
+
     return(
         <div className="card-item">
             <h2>{title}</h2>
             <p>Precio: ${price}</p>
             <p>Talle: {talle}</p>
-            <button>Comprar</button>
+            <ItemCount stock={stock}/>
         </div>
     )
 }

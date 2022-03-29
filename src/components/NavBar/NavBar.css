@@ -1,6 +1,21 @@
 .NavBar {
-    display: flex;
-    width:fit-content;
-    height: 2.5rem;
-  }
+  display: flex;
+  width: fit-content;
+  height: 2.5rem;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-left: 15rem;
+  padding:1rem;}
+.img-header{
+  width: fit-content;
+  height: 4rem;
+  margin-right: 6rem;
+
+}
+li{
+  margin-right: 6rem;
+}
     

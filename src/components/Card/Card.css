@@ -1,0 +1,9 @@
+.img-card{
+    display:flex;
+    width: 200px;
+    height: 200px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}

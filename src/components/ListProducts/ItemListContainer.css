@@ -1,5 +1,12 @@
 .container-cards {
-    margin-top: 3rem;
-    display: flex;
-    width:fit-content;
-  } 
+  margin-top: 5rem;
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 4rem;
+  align-content: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}

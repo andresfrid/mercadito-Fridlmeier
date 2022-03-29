@@ -1,7 +1,13 @@
 .card-item{
-  float:left;
   border: 2px solid #e90909;
+  align-content: center;
+
 }
 .NavBar{
   list-style: none;
+}
+.main-header{
+  background-color: #c8caca;
+  align-items: center;
+  align-content: center;
 }
